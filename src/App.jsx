@@ -4,6 +4,7 @@ import { useState } from 'react'
 import './App.css'
 import Button2 from './components/Button/Button2'
 import Header from './components/Header/Header'
+import Requisicao from './components/Requisicao/Requisicao'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Header />
+      <Requisicao />
       <Button1 />
       <Button2 />
     </>
